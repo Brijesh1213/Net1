@@ -43,7 +43,7 @@ public class AccountPermissionPage extends BasePage {
 			  	return getElementforPage(pageTitle);
 		  }	
 	      
-	      //method
+	      //methodss
 	       public void createAdminAccount() throws InterruptedException {
 	    	   driver.switchTo().frame(1);	    	   
 	    	   if(getaccountsTab().isDisplayed()) {

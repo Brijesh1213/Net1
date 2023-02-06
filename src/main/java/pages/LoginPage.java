@@ -34,6 +34,7 @@ public WebElement getLogo() {
 public String loginPageTitle () {
 	return getTitle();
 	
+	
 }
   
 public void doLogin() {
