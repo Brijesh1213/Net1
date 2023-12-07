@@ -1,59 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-06T11:32:13 EST" name="Default suite" finished-at="2023-02-06T11:32:21 EST" duration-ms="8467">
+  <suite started-at="2023-02-06T11:59:35 EST" name="Default suite" finished-at="2023-02-06T11:59:51 EST" duration-ms="15781">
     <groups>
     </groups>
-    <test started-at="2023-02-06T11:32:13 EST" name="Default test" finished-at="2023-02-06T11:32:21 EST" duration-ms="8467">
-      <class name="test.LoginTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:test.LoginTest@4b2c5e02]" started-at="2023-02-06T11:32:13 EST" name="setExtent" finished-at="2023-02-06T11:32:13 EST" duration-ms="152" status="PASS">
+    <test started-at="2023-02-06T11:59:35 EST" name="Default test" finished-at="2023-02-06T11:59:51 EST" duration-ms="15781">
+      <class name="test.AccountPermissionTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-06T11:59:35 EST" name="setExtent" finished-at="2023-02-06T11:59:35 EST" duration-ms="148" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="initialisation()[pri:0, instance:test.LoginTest@4b2c5e02]" started-at="2023-02-06T11:32:13 EST" name="initialisation" finished-at="2023-02-06T11:32:17 EST" duration-ms="3574" status="PASS">
+        <test-method is-config="true" signature="initialisation()[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-06T11:59:35 EST" name="initialisation" finished-at="2023-02-06T11:59:38 EST" duration-ms="2956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialisation -->
-        <test-method signature="verifyPageTitleTest()[pri:1, instance:test.LoginTest@4b2c5e02]" started-at="2023-02-06T11:32:17 EST" name="verifyPageTitleTest" finished-at="2023-02-06T11:32:17 EST" duration-ms="22" status="PASS">
+        <test-method signature="verifycreateAccount()[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-06T11:59:38 EST" name="verifycreateAccount" finished-at="2023-02-06T11:59:50 EST" duration-ms="12247" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPageTitleTest -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@4b2c5e02]" started-at="2023-02-06T11:32:17 EST" name="teardown" finished-at="2023-02-06T11:32:18 EST" duration-ms="1074" status="PASS">
+        </test-method> <!-- verifycreateAccount -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-06T11:59:50 EST" name="teardown" finished-at="2023-02-06T11:59:51 EST" duration-ms="61" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPageTitleTest status=SUCCESS method=LoginTest.verifyPageTitleTest()[pri:1, instance:test.LoginTest@4b2c5e02] output={null}]]]>
+                <![CDATA[[TestResult name=verifycreateAccount status=SUCCESS method=AccountPermissionTest.verifycreateAccount()[pri:0, instance:test.AccountPermissionTest@dc9876b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="initialisation()[pri:0, instance:test.LoginTest@4b2c5e02]" started-at="2023-02-06T11:32:18 EST" name="initialisation" finished-at="2023-02-06T11:32:20 EST" duration-ms="1834" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialisation -->
-        <test-method signature="verifyLogo()[pri:2, instance:test.LoginTest@4b2c5e02]" started-at="2023-02-06T11:32:20 EST" name="verifyLogo" finished-at="2023-02-06T11:32:20 EST" duration-ms="574" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:test.LoginTest@4b2c5e02]" started-at="2023-02-06T11:32:20 EST" name="teardown" finished-at="2023-02-06T11:32:21 EST" duration-ms="957" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verifyLogo status=SUCCESS method=LoginTest.verifyLogo()[pri:2, instance:test.LoginTest@4b2c5e02] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:test.LoginTest@4b2c5e02]" started-at="2023-02-06T11:32:21 EST" name="endReport" finished-at="2023-02-06T11:32:21 EST" duration-ms="249" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:test.AccountPermissionTest@dc9876b]" started-at="2023-02-06T11:59:51 EST" name="endReport" finished-at="2023-02-06T11:59:51 EST" duration-ms="341" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-      </class> <!-- test.LoginTest -->
+      </class> <!-- test.AccountPermissionTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
